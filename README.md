@@ -1,1 +1,4 @@
-# taiseikato_com2
+# _internet
+since.20201212
+
+インターネットの場所作り

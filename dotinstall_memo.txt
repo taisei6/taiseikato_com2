@@ -1,0 +1,14 @@
+HTML基礎文法{
+  11,12_リスト,箇条書き
+  14_表table
+  15_リンク，タブ追加_blank
+  21_div, span
+}
+
+css基本文法{
+  7_borderで境界表示デバッグ
+  8_text系
+  9_font
+  24_diplay 重要
+
+}

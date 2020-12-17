@@ -1,0 +1,33 @@
+
+index.html{
+
+  play(reel_movie)
+
+  if(click){
+
+    works.html(gallary){
+
+      container(Potarhythm.html)
+      container(yamijenga.html)
+      container(relgo.html)
+      container(flash.html)
+      etc...
+
+      if(カーソル = menu){
+        box(works)
+        box(profile)
+        box(taiseikato.com)
+        box(contact)
+        box(icon)
+      }
+    }
+  }
+}
+
+container(char work){
+  open(work.html)
+}
+
+box(char page){
+  open(page.html)
+}
