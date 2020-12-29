@@ -11,7 +11,17 @@ body {
     background: #fff;
     min-width: 320px;
     letter-spacing: 0.5px;
-    border: 1px solid pink;
+    display: grid;
+    grid-template:
+        "... ...... ...... ...... ...... ...... ..."
+        "... header header header header header ..." 150px
+        "... ...... ...... ...... ...... ...... ..."
+        "... left   ...... center ...... right  ..." 1fr
+        "... ...... ...... ...... ...... ...... ..."
+        "... footer footer footer footer footer ..." 300px
+        "... ...... ...... ...... ...... ...... ..."
+        / auto 150px auto 1fr auto 200px auto;
+    /* border: 1px solid pink; */
 }
 
 div{
@@ -34,7 +44,18 @@ h1, h2, h3, h4, h5, h6, p, address, ul, ol, li, dl, dt, dd, table, th, td, img, 
   width: 100%;
   text-align: center;
   padding-top: 150px;
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
+}
+header{
+  grid-area: header;
+}
+
+main{
+  grid-area: center;
+}
+
+footer {
+    grid-area: footer;
 }
 
 #header {
@@ -46,13 +67,13 @@ h1, h2, h3, h4, h5, h6, p, address, ul, ol, li, dl, dt, dd, table, th, td, img, 
     top: 0;
     left: 0;
     z-index: 100;
-    background-color: pink;
-    border: 1px solid red;
+    /* background-color: pink; */
+    /* border: 1px solid red; */
 }
 #header .wrap {
     margin: 0 auto;
     max-width: 1280px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 #header .logo {
     float: left;
@@ -60,7 +81,7 @@ h1, h2, h3, h4, h5, h6, p, address, ul, ol, li, dl, dt, dd, table, th, td, img, 
 }
 #nav {
   text-align: center;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 
 }
 #nav ul {
@@ -150,8 +171,8 @@ li {
 
 .container{
   display:block;
-  height: 60em;
-  margin-bottom: 20px;
+  /* height: 60em; */
+  margin-bottom: 5px;
   margin-left: auto;
   margin-left: auto;
   flex-direction: row;
