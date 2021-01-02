@@ -182,7 +182,9 @@ aside {
 
 footer {
     grid-area: footer;
-    background-color: gray;
+    color: white;
+    background-color: black;
+    /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05); */
     display: grid;
     grid-template:
           " ... ... ... ... ... ... " auto
