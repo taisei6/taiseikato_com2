@@ -173,7 +173,7 @@ p{
   grid-template:
     "title day .... ....  " 55px
     "Genre Genre Tools Tools " 20px
-    "... ... ... ... " 0px
+    "... ... ... ... " 10px
     / auto 1fr 50% auto;
   /* grid-template:
     "title .... Genre Genre  " 25px
