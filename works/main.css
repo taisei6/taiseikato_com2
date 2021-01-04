@@ -170,24 +170,32 @@ p{
   display: grid;
   /* height: 10em; */
   margin: 0;
-  grid-template:
+  /* grid-template:
+    "title day .... ....  " 55px
+    "Genre Genre ... ... " 20px
+    "Tools Tools ... ... " 20px
+    "... ... ... ... " 10px
+    / auto 1fr auto auto; */
+  /* grid-template:
     "title day .... ....  " 55px
     "Genre Genre Tools Tools " 20px
     "... ... ... ... " 10px
-    / auto 1fr 50% auto;
-  /* grid-template:
-    "title .... Genre Genre  " 25px
-    "title day Tools Tools " 25px
-    "... ... ... ... " 0px
-    / auto 1fr auto auto; */
-    grid-gap: 10px
+    / auto 1fr 50% auto; */
+  grid-template:
+    "... ... ... ... ... " 10px
+    "title ... day ... ...  " 10px
+    "title ... day Genre Genre  " 25px
+    "title ... day Tools Tools " 25px
+    "... ... ... ... ... " 10px
+    / auto 10px 1fr auto auto;
+    grid-gap: 1px
 }
 
 .caption h1{
   display: block;
   grid-area: title;
   font-style: italic;
-  font-size: 40px;
+  font-size: 45px;
   font-weight: bold;
   color: black;
   margin-block-start: 0em;
@@ -201,7 +209,7 @@ p{
   display: block;
   grid-area: Genre;
   font-style: normal;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 100;
   color: gray;
   margin-block-start: 0em;
@@ -214,7 +222,7 @@ p{
   display: block;
   grid-area: Tools;
   font-style: normal;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 100;
   color: gray;
   margin-block-start: 0em;
@@ -226,12 +234,12 @@ p{
 
 .caption p{
   grid-area: day;
-  font-size: 18px;
+  font-size: 20px;
   font-style: italic;
   font-weight:  normal;
   color: black;
   display: block;
-  margin: auto 0 0 0;
+  margin: 1.5em 0 0 0;
   /* margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
@@ -252,6 +260,11 @@ p{
   flex-wrap: nowrap;
   z-index: 1
   /* align-content: flex-start; */
+}
+.spacer{
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .text{
