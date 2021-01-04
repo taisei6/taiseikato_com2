@@ -171,25 +171,26 @@ p{
   display: grid;
   /* height: 10em; */
   margin: 0;
-  /* grid-template:
-    "title day .... ....  " 55px
-    "Genre Genre ... ... " 20px
-    "Tools Tools ... ... " 20px
-    "... ... ... ... " 10px
-    / auto 1fr auto auto; */
+  grid-template:
+    "title ... day .... ....  " 55px
+    "... ... ... ... ..." 5px
+    "Genre Genre Genre Genre ... " 20px
+    "Tools Tools Tools Tools ... " 20px
+    "... ... ... ... ..." 10px
+    / auto 5px 1fr auto auto;
   /* grid-template:
     "title day .... ....  " 55px
     "Genre Genre Tools Tools " 20px
     "... ... ... ... " 10px
     / auto 1fr 50% auto; */
-  grid-template:
+  /* grid-template:
     "... ... ... ... ... " 10px
     "title ... day ... ...  " 10px
     "title ... day Genre Genre  " 25px
     "title ... day Tools Tools " 25px
     "... ... ... ... ... " 10px
-    / auto 10px 1fr auto auto;
-    grid-gap: 1px
+    / auto 10px 110px 1fr auto; */
+    grid-gap: 5px
 }
 
 .caption h1{
@@ -235,12 +236,12 @@ p{
 
 .caption p{
   grid-area: day;
-  font-size: 20px;
+  font-size: 16px;
   font-style: italic;
   font-weight:  normal;
   color: black;
   display: block;
-  margin: 1.5em 0 0 0;
+  margin: 2.3em 0 0 0;
   /* margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
@@ -264,14 +265,27 @@ p{
 }
 .spacer{
   display: block;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .text{
   display: block;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px
+}
+.text ul{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.text ul li{
+  list-style: disc;
+  list-style-position: inside;
+  color: gray;
+}
+.text ul li a{
+  color: gray;
+  text-decoration: underline;
 }
 
 a{

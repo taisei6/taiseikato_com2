@@ -12,7 +12,7 @@
                 $(document).ready(function(){
                     $('.slider').bxSlider({
                         auto: true,
-                        pause: 5000,
+                        pause: 3000,
                     });
                 });
         </script>
@@ -50,7 +50,7 @@
               <h1>Potarhythm</h1>
               <p>2019.06 >></p>
               <h2>Genre / musical instrument, performance, interaction, music</h2>
-              <h3>Tools / Arduino, MIDI, Fusion 360, Fritzing, Reason10(DAW), Adobe Premiere, Adobe Audition</h3>
+              <h3>Tools / Arduino, MIDI, Fusion 360, Fritzing, Reason(DAW), Adobe Premiere, Adobe Audition</h3>
             </div>
             <div class="photo">
               <span class="image">
@@ -62,6 +62,15 @@
                 <img src="images/p_tall_1.jpg" alt="test">
               </span>
             </div>
+
+            <div class="spacer"></div>
+            <div class="spacer"></div>
+            <div class="text">
+              <h1>水滴落打音でのリアルタイム演奏を可能にしたMIDI生音源</h1>
+              <p>水滴落下による着水時の気泡音と物体との衝突時の打音を水滴落打音と称してArduinoとソレノイドバルブ，MIDI通信を用いて水滴直径と水滴落下のタイミングを制御することで，水滴落打音の音高と音量を大まかに制御し打楽器的なリアルタイム演奏を可能にした作品．</p>
+            </div>
+
+            <div class="spacer"></div>
             <div class="spacer"></div>
             <div class="photo">
               <div style="position: relative; padding-bottom: 56.25%;">
@@ -77,11 +86,21 @@
                 </iframe>
               </div>
             </div>
-
-            <div class="text">
-              <h1>水滴落打音でのリアルタイム演奏を可能にしたMIDI生音源</h1>
-              <p>水滴落下による着水時の気泡音と物体との衝突時の打音を水滴落打音と称してArduinoとソレノイドバルブ，MIDI通信を用いて水滴直径と水滴落下のタイミングを制御することで，水滴落打音の音高と音量を大まかに制御し打楽器的なリアルタイム演奏を可能にした作品．</p>
+            <div class="photo">
+              <div style="position: relative; padding-bottom: 56.25%;">
+                <iframe
+                  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                  src="https://www.youtube.com/embed/iMqOn_OuVuU"
+                  frameborder="0"
+                  allow="accelerometer; autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture" allowfullscreen>
+                </iframe>
+              </div>
             </div>
+
             <div class="photo">
               <div class="slider">
                 <img src="images/p1.jpg" alt="">
@@ -89,39 +108,87 @@
                 <img src="images/p3.jpg" alt="">
               </div>
             </div>
+
+            <div class="spacer"></div>
+
             <div class="text">
               <h2>Background</h2>
               <p>水の動きや音が鑑賞対象となる音声コンテンツや音楽作品は数多く存在しています(ex.水琴窟，漣，雨，Point / コーネリアス...)．水の音が音楽表現の手法として用いられることはありますが収録方法や演奏装置などの再現性のある方法というのは発表されていないことが多く，リアルタイムで演奏している事例が少ないです．そこで，水の音でリアルタイム演奏ができる楽器または演奏装置を制作して演奏，音楽制作を行いたいと思い制作しました．</p>
             </div>
 
+            <div class="spacer"></div>
+
             <div class="text">
-              <h2>Concept</h2>
-              <p>ああああああああああああああああああああああああああああああああ
-              ああああああああああああああああああああああああああああああああああ
-            あああああああああああああああああああああああああああああああああああ
-          ああああああああああああああああああああああああああああaaaaaaaaaaaaaあ
-        ああああああああああああああああああああああああああああああああああああ
-      ああああああああああああああああああああああああああああああああああ
-    あああああああああああああああああああああああああああああああああああああ
-  あああああああああああああああああああああああああああああああああああああああああああ
-あああああああああああああああああああああああああああああああああああああああああ
-</p>
+              <h2>System</h2>
+              <p>あああああああああああああああああああああああああ</p>
             </div>
+
+            <div class="spacer"></div>
+
+            <div class="text">
+              <h2>Research & Ideation</h2>
+            </div>
+
             <div class="photo">
-              <span class="image">
-                <img src="images/p1.jpg" alt="test">
-              </span>
+              <div class="slider">
+                <img src="images/p1.jpg" alt="">
+                <img src="images/p2.jpg" alt="">
+              </div>
             </div>
+
+            <div class="text">
+              <p>水滴の水面衝突の気泡音に関する研究はいくつかあり，それらから水滴直径と落下速度の組合せから気泡が発生することがわかっていました．リズムのことを考えて水滴落下の高度を一定にすることで速度と落下時間を一定に保ち，水滴直径の変化によって音の要素を変化させることを考えた．</p>
+              <p>電流の有無で開閉し水を通すソレノイドバルブは，オンオフの時間差で直接的に水滴直径（水量）の変化可能という理由で採用しました．また付属させるチューブの直径でも水滴直径に変化が起こることと制御が容易であることも利点でした．</p>
+              <p>MIDIという規格は電子楽器やPCを用いたとてもポピュラーなもので，演奏者の使いやすいインタフェースを使用できるようにという意図がありました．</p>
+            </div>
+
+            <div class="spacer"></div>
+
+            <div class="text">
+              <h2>Programming</h2>
+              <p>Arduinoを用いてMIDI通信からバルブへの制御をArduino MIDI Liibraryを用いてコーディング しました．コードはGithubから参照できます．プログラムの肝としてはMIDI通信における3要素である"Channel (楽器選択)[1~16]", "Note (音高)", "Verocity (強弱)[0~127]"を"Channel (楽器選択)", "バルブ選択", "バルブの開放時間"に変換させ，バルブごとで音高を変えられるようにしたことである．＊Verocityは正確には鍵盤を叩く速さです</p>
+            </div>
+
+            <div class="spacer"></div>
+
+            <div class="text">
+              <h2>Hardware</h2>
+            </div>
+
             <div class="photo">
-              <span class="image">
-                <img src="images/p2.jpg" alt="test">
-              </span>
+              <div class="slider">
+                <img src="images/p_hardware0.jpg" alt="">
+                <img src="images/p_hardware1.jpg" alt="">
+                <img src="images/p_hardware2.jpg" alt="">
+                <img src="images/p_hardware3.jpg" alt="">
+              </div>
             </div>
-            <div class="photo">
-              <span class="image">
-                <img src="images/p3.jpg" alt="test">
-              </span>
+
+            <div class="text">
+              <p>MIDIのインプット回路とArduinoからバルブへのトランジスタで制御する回路を組み，シールド化しました．また，記録としてFritzingで回路図とブレッドボード図を作成しました．</p>
             </div>
+
+            <div class="spacer"></div>
+
+            <div class="text">
+              <h2>Proceedings</h2>
+              <ul>
+                <li>NIME2020 Non paper Demo, NIME</li>
+                <li><a href="https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=204234&item_no=1&page_id=13&block_id=8">EC2020, 情報処理学会エンタテインメントコンピューティング研究会</a></li>
+                <li><a href="http://adada.info/japan6th/proc/2019ADADAJapan_proceedings.pdf">第6回 ADADA Japan 学術大会, ADADA Japan, "P-5 水滴音を利用した自動演奏装置</a></li>
+              </ul>
+            </div>
+
+            <div class="spacer"></div>
+
+            <div class="text">
+              <h2>Credit</h2>
+              <p>All by taisei kato</p>
+
+            </div>
+
+
+
         </main>
 
         <aside></aside>
