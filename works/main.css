@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, h6, p, address, ul, ol, li, dl, dt, dd, table, th, td, img, 
     list-style-type: none;
 }
 
+
 header {
     grid-area: header;
     width:inherit;

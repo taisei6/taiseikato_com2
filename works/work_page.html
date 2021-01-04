@@ -4,6 +4,19 @@
         <meta charset="UTF-8" />
         <title>Document</title>
         <link rel="stylesheet" href="main.css" />
+        <link rel="stylesheet" href="jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+        <script type="text/javascript">
+                $(document).ready(function(){
+                    $('.slider').bxSlider({
+                        auto: true,
+                        pause: 5000,
+                    });
+                });
+        </script>
+
     </head>
     <body>
         <header>
@@ -68,7 +81,13 @@
             <div class="text">
               <h1>水滴落打音でのリアルタイム演奏を可能にしたMIDI生音源</h1>
               <p>水滴落下による着水時の気泡音と物体との衝突時の打音を水滴落打音と称してArduinoとソレノイドバルブ，MIDI通信を用いて水滴直径と水滴落下のタイミングを制御することで，水滴落打音の音高と音量を大まかに制御し打楽器的なリアルタイム演奏を可能にした作品．</p>
-
+            </div>
+            <div class="photo">
+              <div class="slider">
+                <img src="images/p1.jpg" alt="">
+                <img src="images/p2.jpg" alt="">
+                <img src="images/p3.jpg" alt="">
+              </div>
             </div>
             <div class="text">
               <h2>Background</h2>
