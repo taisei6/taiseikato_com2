@@ -134,7 +134,7 @@ main {
 /* main */
 h1{
   display: block;
-  font-size: 40px;
+  font-size: 36px;
   font-weight: bold;
   color: black;
   margin-block-start:  0em;
@@ -194,6 +194,20 @@ p{
 }
 
 .caption h1{
+  display: block;
+  grid-area: title;
+  font-style: italic;
+  font-size: 45px;
+  font-weight: bold;
+  color: black;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: none;
+}
+
+.caption2 h1{
   display: block;
   grid-area: title;
   font-style: italic;
