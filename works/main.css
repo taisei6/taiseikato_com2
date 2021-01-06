@@ -156,6 +156,18 @@ h2{
   font-weight: none;
 }
 
+h3{
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  margin-block-start: 1em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: none;
+}
+
 p{
   display: block;
   font-size: 18px;
