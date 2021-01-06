@@ -328,6 +328,20 @@ a:visited{
   text-decoration: none;
 }
 
+.skill{
+  color: white;
+  background-color: black;
+  /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05); */
+  display: grid;
+  grid-template:
+        " ... ... ... ... " auto
+        " ... ... ... ... " 50px
+        " ... ... ... ... " 50px
+        " ... ... ... ... " auto
+        / auto 12vw  12vw auto;
+        grid-gap: 10px;
+}
+
 nav {
     grid-area: left;
 }
