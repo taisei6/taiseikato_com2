@@ -10,7 +10,7 @@ body {
         "header header header header header header header" 80px
         "... ...... ...... ...... ...... ...... ..." 2em
         "... left   ...... center ...... right  ..." 1fr
-        "... ...... ...... ...... ...... ...... ..."2em
+        "... ...... ...... ...... ...... ...... ..." 2em
         "footer footer footer footer footer footer footer" 200px
         / auto 15vw auto 1fr auto 15vw auto;
         /* grid-gap: 10px; */
