@@ -3,20 +3,11 @@
     <head>
         <meta charset="UTF-8" />
         <title>闇ジェンガ</title>
-        <link rel="stylesheet" href="main.css" />
+        <link rel="stylesheet" href="main.css"/>
         <link rel="stylesheet" href="jquery.bxslider.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-
-        <script type="text/javascript">
-                $(document).ready(function(){
-                    $('.slider').bxSlider({
-                        auto: true,
-                        pause: 4000,
-                    });
-                });
-        </script>
-
+        <script src="js/slide.js"></script>
     </head>
     <body>
       <header>
@@ -63,7 +54,7 @@
 
             <div class="spacer"></div>
             <div class="spacer"></div>
-            <div class="spacer"></div>
+
             <div class="text">
               <h1>暗闇専用LEDジェンガ</h1>
               <p>ジェンガを遊ぶ上で、視覚と触覚はジェンガのキモであることに着目し製作した作品。静止状態では，暗闇の視認性の悪さが本来のスリルをさらに引き立て、触れたり、揺れたりすると様々な色に光ります．ゲームのシーンによって不安や安心を感じさせるインタラクティブLEDジェンガです．</p>
@@ -88,18 +79,18 @@
 
             <div class="spacer"></div>
 
-            <div class="photo">
-              <div class="slider">
-                <img src="images/yamijenga/y_0.jpg" alt="">
-                <img src="images/yamijenga/y_1.jpg" alt="">
-                <img src="images/yamijenga/y_2.jpg" alt="">
-                <img src="images/yamijenga/y_3.jpg" alt="">
-                <img src="images/yamijenga/y_4.jpg" alt="">
-                <img src="images/yamijenga/y_5.jpg" alt="">
-                <img src="images/yamijenga/y_6.jpg" alt="">
-                <img src="images/yamijenga/y_7.jpg" alt="">
-              </div>
-            </div>
+            <div id="slide_1">
+          		<ul class="bxslider">
+          			<li><img src="images/yamijenga/y_0.jpg" alt=""></li>
+                <li><img src="images/yamijenga/y_1.jpg" alt=""></li>
+                <li><img src="images/yamijenga/y_2.jpg" alt=""></li>
+                <li><img src="images/yamijenga/y_3.jpg" alt=""></li>
+                <li><img src="images/yamijenga/y_4.jpg" alt=""></li>
+                <li><img src="images/yamijenga/y_5.jpg" alt=""></li>
+                <li><img src="images/yamijenga/y_6.jpg" alt=""></li>
+                <li><img src="images/yamijenga/y_7.jpg" alt=""></li>
+          		</ul>
+          	</div>
 
             <div class="spacer"></div>
 
@@ -121,11 +112,11 @@
               <h2>Prototyping</h2>
             </div>
 
-            <div class="photo">
-              <div class="slider">
-                <img src="images/yamijenga/y_kiban_1.jpg" alt="">
-              </div>
-            </div>
+            <div id="slide_2">
+          		<ul class="bxslider">
+          			<li><img src="images/yamijenga/y_kiban_1.jpg" alt=""></li>
+          		</ul>
+          	</div>
 
             <div class="spacer"></div>
 
@@ -134,12 +125,12 @@
               <p>Fusion 360で電子部品が入るジェンガブロックの3Dモデリングを行い，3Dプリントしました．厚さや素材の色と光の通過具合などを実験しました．2019年11月のアップデートでLEDの入らないジェンガには，文字や模様を彫った黒の厚紙などを入れて光で浮かびあがらせたりできるように新モデルを作りました．</p>
             </div>
 
-            <div class="photo">
-              <div class="slider">
-                <img src="images/yamijenga/y_model_0.jpg" alt="">
-                <img src="images/yamijenga/y_model_1.jpg" alt="">
-              </div>
-            </div>
+            <div id="slide_3">
+          		<ul class="bxslider">
+          			<li><img src="images/yamijenga/y_model_0.jpg" alt=""></li>
+                <li><img src="images/yamijenga/y_model_1.jpg" alt=""></li>
+          		</ul>
+          	</div>
 
             <div class="spacer"></div>
 
@@ -154,13 +145,14 @@
               <h2>Circuit Design</h2>
               <p>Fritzingを用いて回路設計し，ジェンガに入る小さなサイズまで落とし込み、重心や光り方を考えた上でセンサやLEDなどを配置した基板をデザインしました。</p>
             </div>
-            <div class="photo">
-              <div class="slider">
-                <img src="images/yamijenga/y_circuit_0.jpg" alt="">
-                <img src="images/yamijenga/y_circuit_1.jpg" alt="">
-                <img src="images/yamijenga/y_circuit_2.jpg" alt="">
-              </div>
-            </div>
+
+            <div id="slide_4">
+          		<ul class="bxslider">
+          			<li><img src="images/yamijenga/y_circuit_0.jpg" alt=""></li>
+          			<li><img src="images/yamijenga/y_circuit_1.jpg" alt=""></li>
+          			<li><img src="images/yamijenga/y_circuit_2.jpg" alt=""></li>
+          		</ul>
+          	</div>
 
             <div class="spacer"></div>
 

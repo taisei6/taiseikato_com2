@@ -3,19 +3,11 @@
     <head>
         <meta charset="UTF-8" />
         <title>barobo</title>
-        <link rel="stylesheet" href="main.css" />
+        <link rel="stylesheet" href="main.css"/>
         <link rel="stylesheet" href="jquery.bxslider.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-
-        <script type="text/javascript">
-                $(document).ready(function(){
-                    $('.slider').bxSlider({
-                        auto: true,
-                        pause: 4000,
-                    });
-                });
-        </script>
+        <script src="js/slide.js"></script>
 
     </head>
     <body>
@@ -74,13 +66,13 @@
 
             <div class="spacer"></div>
 
-            <div class="photo">
-              <div class="slider">
-                <img src="images/barobo/b_0.jpg" alt="">
-                <img src="images/barobo/b_1.jpg" alt="">
-                <img src="images/barobo/b_2.jpg" alt="">
-              </div>
-            </div>
+            <div id="slide_1">
+          		<ul class="bxslider">
+          			<li><img src="images/barobo/b_0.jpg" alt=""></li>
+                <li><img src="images/barobo/b_1.jpg" alt=""></li>
+                <li><img src="images/barobo/b_2.jpg" alt=""></li>
+          		</ul>
+          	</div>
 
             <div class="spacer"></div>
 

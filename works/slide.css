@@ -1,12 +1,14 @@
 .container {
-    margin:12px auto;
+    /* margin:12px auto; */
 }
 main{
   width:1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*pattern 1*/
  #container_1 {
-    width:10%;
+    width:100%;
 }
 #container_1 .bx-viewport {
     box-shadow: none;
@@ -22,7 +24,7 @@ main{
 
 /*pattern 2*/
  #container_2 {
-    width:10%;
+    width:100%;
 }
 #container_2 .bx-pager-item a {
     background: #ccc;
@@ -33,7 +35,7 @@ main{
 
 /* pattern 3*/
  #container_3 {
-    width:10%;
+    width:100%;
 }
 #container_3 .bx-wrapper {
     margin-bottom:12px;
@@ -43,4 +45,7 @@ main{
 }
 #bx-pager {
     text-align:center;
+}
+img{
+  width: 100%;
 }
