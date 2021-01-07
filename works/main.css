@@ -332,19 +332,148 @@ a:visited{
 }
 
 .skill{
-  color: white;
-  background-color: black;
-  /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05); */
   display: grid;
   grid-template:
-        " ... ... ... ... " auto
-        " ... ... ... ... " 50px
-        " ... ... ... ... " 50px
-        " ... ... ... ... " auto
-        / auto 12vw  12vw auto;
-        grid-gap: 10px;
+    " ..... b0 ..... b1 ..... b2 ...." auto
+    / 10px 1fr 30px 1fr 30px 1fr 10px ;
+    /* grid-gap: 10px; */
 }
 
+.skill_bl_0{
+  grid-area: b0;
+  display: grid;
+  grid-template:
+    " ... ... ... ... " 10px
+    " icon ... tool per " 30px
+    " icon ... bar_box ... " 30px
+    " ... ... ... ... " 10px
+    / 60px 10px 1fr auto ;
+    /* grid-gap: 10px; */
+}
+.skill_bl_1{
+  grid-area: b1;
+  display: grid;
+  grid-template:
+    " ... ... ... ... " 10px
+    " icon ... tool per " 30px
+    " icon ... bar_box ... " 30px
+    " ... ... ... ... " 10px
+    / 60px 10px 1fr auto ;
+    /* grid-gap: 10px; */
+}
+.skill_bl_2{
+  grid-area: b2;
+  display: grid;
+  grid-template:
+    " ... ... ... ... " 10px
+    " icon ... tool per " 30px
+    " icon ... bar_box ... " 30px
+    " ... ... ... ... " 10px
+    / 60px 10px 1fr auto ;
+    /* grid-gap: 10px; */
+}
+
+.icon{
+  grid-area: icon;
+  /* background-color: gray; */
+}
+.tool{
+  grid-area: tool;
+  text-align: left;
+  /* background-color: gray; */
+}
+.skill p{
+  display: block;
+  font-size: 18px;
+  font-weight: lighter;
+  color: gray;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 5px;
+  margin-inline-end: 5px;
+  /* background-color: gray; */
+}
+.per{
+  grid-area: tool;
+  text-align: right;
+}
+.bar_box{
+  grid-area: bar_box;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+  /* outline-color: gray; */
+}
+.bar{
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 12px;
+  background-color: gray;
+}
+.bar_10{
+  width: 10%;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 12px;
+  background-color: gray;
+}
+.bar_20{
+  width: 20%;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 12px;
+  background-color: gray;
+}
+.bar_30{
+  width: 30%;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 12px;
+  background-color: gray;
+}
+.bar_40{
+  width: 40%;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 12px;
+  background-color: gray;
+}
+.bar_50{
+  width: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 12px;
+  background-color: gray;
+}
+.bar_60{
+  width: 60%;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 12px;
+  background-color: gray;
+}
+.bar_70{
+  width: 70%;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 12px;
+  background-color: gray;
+}
+.bar_80{
+  width: 80%;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 12px;
+  background-color: gray;
+}
+.bar_90{
+  width: 90%;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 12px;
+  background-color: gray;
+}
 nav {
     grid-area: left;
 }
