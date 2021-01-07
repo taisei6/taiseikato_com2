@@ -1,6 +1,6 @@
 body {
     /* font-size: 2rem; */
-    /* max-width: 1600px; */
+    max-width: 1600px;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -280,7 +280,7 @@ p{
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: auto;
-  margin-left: auto;
+  margin-right: auto;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
@@ -415,6 +415,40 @@ footer {
   position:relative;
   top:-50px; left:10px;
   width:300px;
+}
+
+
+/*pattern 2*/
+#slide_0 {
+   width:100%;
+}
+#slide_0 .bx-pager-item a {
+   /* background: #ccc; */
+}
+#slide_0 a.active {
+   /* background:#4b4b4b; */
+}
+#slide_1 {
+   width:100%;
+}
+#slide_1 .bx-pager-item a {
+   /* background: #ccc; */
+}
+#slide_1 a.active {
+   /* background:#4b4b4b; */
+}
+#slide_2 {
+   width:100%;
+}
+#slide_2 .bx-pager-item a {
+   /* background: #ccc; */
+}
+#slide_2 a.active {
+   /* background:#4b4b4b; */
+}
+
+#bx-pager {
+   text-align:center;
 }
 
 @media screen and (max-width: 1000px) {
