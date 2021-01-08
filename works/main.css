@@ -1,5 +1,9 @@
+@charset "UTF-8";
+
 body {
     /* font-size: 2rem; */
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -47,7 +51,7 @@ header {
     "... ... ... ... ..." auto
     "menu ... logo ... social" 50px
     "... ... ... ... ..." auto
-    / 15vw auto 1fr auto 15vw;
+    / 300px auto 1fr auto 300px;
 }
 
 #nav ul{
@@ -74,7 +78,7 @@ header {
 }
 
 #nav ul a{
-  font-size: 22px;
+  font-size: 24px;
 }
 .menu{
   grid-area: menu;
@@ -84,7 +88,7 @@ header {
   margin: 0;
   padding-right: 20px;
   padding-left: 20px;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: normal;
   font-style: normal;
   /* font-size: 100%; */
@@ -101,7 +105,7 @@ header {
   margin: 0;
   padding-right: 20px;
   padding-left: 20px;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: normal;
   font-style: normal;
   /* font-size: 100%; */
@@ -135,7 +139,7 @@ main {
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
-    /* border-bottom: 1px solid black; */
+    /* border-bottom: 1px solid #202225; */
     padding-bottom: 2em;
 }
 
@@ -186,7 +190,7 @@ h1{
   display: block;
   font-size: 36px;
   font-weight: bold;
-  color: black;
+  color: #202225;
   margin-block-start:  0em;
   margin-block-end: 0em;
   margin-inline-start: 0px;
@@ -198,7 +202,7 @@ h2{
   display: block;
   font-size: 28px;
   font-weight: bold;
-  color: black;
+  color: #202225;
   margin-block-start: 0em;
   margin-block-end: 0em;
   margin-inline-start: 0px;
@@ -210,7 +214,7 @@ h3{
   display: block;
   font-size: 20px;
   font-weight: bold;
-  color: black;
+  color: #202225;
   margin-block-start: 1em;
   margin-block-end: 0em;
   margin-inline-start: 0px;
@@ -221,7 +225,7 @@ h3{
 p{
   display: block;
   font-size: 18px;
-  font-weight: lighter;
+  font-weight: 300;
   color: gray;
   margin-block-start: 1em;
   margin-block-end: 1em;
@@ -263,7 +267,7 @@ p{
   font-style: italic;
   font-size: 45px;
   font-weight: bold;
-  color: black;
+  color: #202225;
   margin-block-start: 0em;
   margin-block-end: 0em;
   margin-inline-start: 0px;
@@ -277,7 +281,7 @@ p{
   font-style: italic;
   font-size: 45px;
   font-weight: bold;
-  color: black;
+  color: #202225;
   margin-block-start: 0em;
   margin-block-end: 0em;
   margin-inline-start: 0px;
@@ -289,8 +293,8 @@ p{
   display: block;
   grid-area: Genre;
   font-style: normal;
-  font-size: 16px;
-  font-weight: 100;
+  font-size: 18px;
+  font-weight: 300;
   color: gray;
   margin-block-start: 0em;
   margin-block-end: 0em;
@@ -302,8 +306,8 @@ p{
   display: block;
   grid-area: Tools;
   font-style: normal;
-  font-size: 16px;
-  font-weight: 100;
+  font-size: 18px;
+  font-weight: 300;
   color: gray;
   margin-block-start: 0em;
   margin-block-end: 0em;
@@ -317,7 +321,7 @@ p{
   font-size: 16px;
   font-style: italic;
   font-weight:  normal;
-  color: black;
+  color: #202225;
   display: block;
   margin: 2.3em 0 0 0;
   /* margin-block-start: 1em;
@@ -351,7 +355,7 @@ p{
 
 .text{
   display: block;
-  color: black;
+  color: #202225;
   margin-top: 20px;
   margin-bottom: 20px;
   /* padding-left: 10px;
@@ -375,11 +379,11 @@ a{
   text-decoration: none;
 }
 a:link{
-  color: black;
+  color: #202225;
   text-decoration: none;
 }
 a:visited{
-  color: black;
+  color: #202225;
   text-decoration: none;
 }
 
@@ -437,12 +441,12 @@ a:visited{
 .skill p{
   display: block;
   font-size: 18px;
-  font-weight: lighter;
-  color: gray;
+  font-weight: 400;
+  color: #202225;
   margin-block-start: 0em;
   margin-block-end: 0em;
-  margin-inline-start: 5px;
-  margin-inline-end: 5px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
   /* background-color: gray; */
 }
 .per{
@@ -455,76 +459,76 @@ a:visited{
   margin-right: 5px;
   margin-top: auto;
   margin-bottom: auto;
-  /* outline-color: gray; */
+  /* outline-color: #595959; */
 }
 .bar{
   margin-top: auto;
   margin-bottom: auto;
   height: 12px;
-  background-color: gray;
+  background-color: #595959;
 }
 .bar_10{
   width: 10%;
   margin-top: auto;
   margin-bottom: auto;
   height: 12px;
-  background-color: gray;
+  background-color: #595959;
 }
 .bar_20{
   width: 20%;
   margin-top: auto;
   margin-bottom: auto;
   height: 12px;
-  background-color: gray;
+  background-color: #595959;
 }
 .bar_30{
   width: 30%;
   margin-top: auto;
   margin-bottom: auto;
   height: 12px;
-  background-color: gray;
+  background-color: #595959;
 }
 .bar_40{
   width: 40%;
   margin-top: auto;
   margin-bottom: auto;
   height: 12px;
-  background-color: gray;
+  background-color: #595959;
 }
 .bar_50{
   width: 50%;
   margin-top: auto;
   margin-bottom: auto;
   height: 12px;
-  background-color: gray;
+  background-color: #595959;
 }
 .bar_60{
   width: 60%;
   margin-top: auto;
   margin-bottom: auto;
   height: 12px;
-  background-color: gray;
+  background-color: #595959;
 }
 .bar_70{
   width: 70%;
   margin-top: auto;
   margin-bottom: auto;
   height: 12px;
-  background-color: gray;
+  background-color: #595959;
 }
 .bar_80{
   width: 80%;
   margin-top: auto;
   margin-bottom: auto;
   height: 12px;
-  background-color: gray;
+  background-color: #595959;
 }
 .bar_90{
   width: 90%;
   margin-top: auto;
   margin-bottom: auto;
   height: 12px;
-  background-color: gray;
+  background-color: #595959;
 }
 
 nav {
@@ -537,8 +541,8 @@ aside {
 
 footer {
     grid-area: footer;
-    color: black;
-    /* background-color: black; */
+    color: #202225;
+    /* background-color: #202225; */
     /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05); */
     display: grid;
     grid-template:
