@@ -3,6 +3,7 @@
   <head>
       <meta charset="UTF-8" />
       <title>闇ジェンガ</title>
+      <link rel="icon" href="images/favicon.png">
       <link rel="stylesheet" href="main.css"/>
       <link rel="stylesheet" href="jquery.bxslider.css">
       <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -92,7 +93,6 @@
             </div>
 
             <div class="spacer"></div>
-            <div class="spacer"></div>
 
             <div class="text">
               <h1>暗闇専用LEDジェンガ</h1>
@@ -116,7 +116,6 @@
               </div>
             </div>
 
-            <div class="spacer"></div>
 
             <div id="slide_1">
           		<ul class="bxslider">
@@ -131,7 +130,9 @@
           		</ul>
           	</div>
 
-            <div class="spacer"></div>
+            <div class="spacer">
+              <div class="border"></div>
+            </div>
 
             <div class="text">
               <h2>Background</h2>
@@ -146,22 +147,8 @@
             </div>
 
             <div class="spacer"></div>
-
-            <div class="text">
-              <h2>Prototyping</h2>
-            </div>
-
-            <div id="slide_2">
-          		<ul class="bxslider">
-          			<li><img src="images/yamijenga/y_kiban_1.jpg" alt=""></li>
-          		</ul>
-          	</div>
-
-            <div class="spacer"></div>
-
-            <div class="text">
-              <h2>Modeling & 3D Print</h2>
-              <p>Fusion 360で電子部品が入るジェンガブロックの3Dモデリングを行い，3Dプリントしました．厚さや素材の色と光の通過具合などを実験しました．2019年11月のアップデートでLEDの入らないジェンガには，文字や模様を彫った黒の厚紙などを入れて光で浮かびあがらせたりできるように新モデルを作りました．</p>
+            <div class="spacer">
+              <div class="border"></div>
             </div>
 
             <div id="slide_3">
@@ -171,18 +158,21 @@
           		</ul>
           	</div>
 
-            <div class="spacer"></div>
+            <div class="text">
+              <h2>Modeling & 3D Print</h2>
+              <p>Fusion 360で電子部品が入るジェンガブロックの3Dモデリングを行い，3Dプリントしました．厚さや素材の色と光の通過具合などを実験しました．2019年11月のアップデートでLEDの入らないジェンガには，文字や模様を彫った黒の厚紙などを入れて光で浮かびあがらせたりできるように新モデルを作りました．</p>
+            </div>
+
+            <div class="spacer">
+            </div>
 
             <div class="text">
               <h2>Programming</h2>
               <p>arduinoを用いて，加速度センサによる揺れや振動の検知，それに応じたLEDの色を変化させるプログラムを書きました。ジェンガを行った時のブロックの揺れを計測し、ゲームに最適な値を探しました。LEDの色は、縦横交互に積み上げたり、落下したり、上にブロックを載せた時の振動が起こったりするジェンガの性質に合わせて、XYZ軸の三軸にRGBを当てはめ、カラフルに光るようにしました。プログラムはGIthubで公開しています．</p>
             </div>
 
-            <div class="spacer"></div>
-
-            <div class="text">
-              <h2>Circuit Design</h2>
-              <p>Fritzingを用いて回路設計し，ジェンガに入る小さなサイズまで落とし込み、重心や光り方を考えた上でセンサやLEDなどを配置した基板をデザインしました。</p>
+            <div class="spacer">
+              <div class="border"></div>
             </div>
 
             <div id="slide_4">
@@ -190,10 +180,19 @@
           			<li><img src="images/yamijenga/y_circuit_0.jpg" alt=""></li>
           			<li><img src="images/yamijenga/y_circuit_1.jpg" alt=""></li>
           			<li><img src="images/yamijenga/y_circuit_2.jpg" alt=""></li>
+                <li><img src="images/yamijenga/y_circuit_3.jpg" alt=""></li>
           		</ul>
           	</div>
+            <div class="text">
+              <h2>Circuit Design</h2>
+            </div>
 
-            <div class="spacer"></div>
+            <div class="text">
+              <p>Fritzingを用いて回路設計し，ジェンガに入る小さなサイズまで落とし込み、重心や光り方を考えた上でセンサやLEDなどを配置した基板をデザインしました。</p>
+            </div>
+
+            <div class="spacer">
+            </div>
 
             <div class="text">
               <h2>Awards</h2>
@@ -226,7 +225,7 @@
             <p>- Back to Top -</p>
           </div> -->
           <div class="copyright">
-            <p>- Copyright 2020 Taisei kato -</p>
+            <p>- Copyright 2020 Taisei Kato -</p>
           </div>
         </footer>
     </body>

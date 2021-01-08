@@ -227,7 +227,7 @@ p{
   font-size: 18px;
   font-weight: 300;
   color: gray;
-  margin-block-start: 1em;
+  margin-block-start: 0.5em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
@@ -346,18 +346,31 @@ p{
   /* align-content: flex-start; */
 }
 .spacer{
+  /* width: 5%; */
+  align-items: center;
   display: block;
   /* margin-top: 50px;
   margin-bottom: 50px; */
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-top: 3.5em;
+  margin-bottom: 3.5em;
+  /* border: 0.5px solid gray; */
+}
+.border{
+  width: 20%;
+  border: 0.5px solid gray;
+  margin-left:  auto;
+  margin-right: auto;
+}
+
+.outline{
+  outline: gray dashed 2px;
 }
 
 .text{
   display: block;
   color: #202225;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
   /* padding-left: 10px;
   padding-right: 10px; */
 }

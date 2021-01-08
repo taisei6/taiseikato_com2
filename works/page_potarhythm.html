@@ -3,6 +3,7 @@
   <head>
       <meta charset="UTF-8" />
       <title>Potarhythm</title>
+      <link rel="icon" href="images/favicon.png">
       <link rel="stylesheet" href="main.css"/>
       <link rel="stylesheet" href="jquery.bxslider.css">
       <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -131,35 +132,45 @@
 
             <div id="slide_1">
           		<ul class="bxslider">
+                <li><img src="images/potarhythm/p_0.jpg" alt=""></li>
           			<li><img src="images/potarhythm/p_1.jpg" alt=""></li>
           			<li><img src="images/potarhythm/p_2.jpg" alt=""></li>
           			<li><img src="images/potarhythm/p_3.jpg" alt=""></li>
+                <li><img src="images/potarhythm/p_4.jpg" alt=""></li>
+          			<li><img src="images/potarhythm/p_5.jpg" alt=""></li>
+          			<li><img src="images/potarhythm/p_6.jpg" alt=""></li>
+                <li><img src="images/potarhythm/p_7.jpg" alt=""></li>
           		</ul>
           	</div>
 
-            <div class="spacer"></div>
+            <div class="spacer">
+              <div class="border"></div>
+            </div>
 
             <div class="text">
               <h2>Background</h2>
               <p>水の動きや音が鑑賞対象となる音声コンテンツや音楽作品は数多く存在しています(ex.水琴窟，漣，雨，Point / コーネリアス...)．水の音が音楽表現の手法として用いられることはありますが収録方法や演奏装置などの再現性のある方法というのは発表されていないことが多く，リアルタイムで演奏している事例が少ないです．そこで，水の音でリアルタイム演奏ができる楽器または演奏装置を制作して演奏，音楽制作を行いたいと思い制作しました．</p>
             </div>
 
-            <div class="spacer"></div>
-
-            <div class="text">
-              <h2>System</h2>
+            <div class="spacer">
+              <div class="border"></div>
             </div>
 
             <div class="photo">
-              <span class="image">
-                <img src="images/potarhythm/p_system.jpg" alt="test">
-              </span>
+              <div class="outline">
+                <span class="image">
+                  <img src="images/potarhythm/p_system.jpg" alt="test">
+                </span>
+              </div>
             </div>
 
-            <div class="spacer"></div>
-
             <div class="text">
-              <h2>Research & Ideation</h2>
+              <h2>System</h2>
+              <p>aaaaa</p>
+            </div>
+
+            <div class="spacer">
+              <div class="border"></div>
             </div>
 
             <div id="slide_2">
@@ -168,6 +179,10 @@
           			<li><img src="images/potarhythm/p_idea_1.jpg" alt=""></li>
           		</ul>
           	</div>
+
+            <div class="text">
+              <h2>Research & Ideation</h2>
+            </div>
 
             <div class="text">
               <p>水滴の水面衝突の気泡音に関する研究はいくつかあり，それらから水滴直径と落下速度の組合せから気泡が発生することがわかっていました．リズムのことを考えて水滴落下の高度を一定にすることで速度と落下時間を一定に保ち，水滴直径の変化によって音の要素を変化させることを考えた．</p>
@@ -182,11 +197,10 @@
               <p>Arduinoを用いてMIDI通信からバルブへの制御をArduino MIDI Liibraryを用いてコーディング しました．コードはGithubから参照できます．プログラムの肝としてはMIDI通信における3要素である"Channel (楽器選択)[1~16]", "Note (音高)", "Verocity (強弱)[0~127]"を"Channel (楽器選択)", "バルブ選択", "バルブの開放時間"に変換させ，バルブごとで音高を変えられるようにしたことである．＊Verocityは正確には鍵盤を叩く速さです</p>
             </div>
 
-            <div class="spacer"></div>
-
-            <div class="text">
-              <h2>Hardware</h2>
+            <div class="spacer">
+              <div class="border"></div>
             </div>
+
             <div id="slide_3">
           		<ul class="bxslider">
           			<li><img src="images/potarhythm/p_hardware0.jpg" alt=""></li>
@@ -197,6 +211,7 @@
           	</div>
 
             <div class="text">
+              <h2>Hardware</h2>
               <p>MIDIのインプット回路とArduinoからバルブへのトランジスタで制御する回路を組み，シールド化しました．また，記録としてFritzingで回路図とブレッドボード図を作成しました．</p>
             </div>
 
@@ -230,7 +245,7 @@
             <p>- Back to Top -</p>
           </div> -->
           <div class="copyright">
-            <p>- Copyright 2020 Taisei kato -</p>
+            <p>- Copyright 2020 Taisei Kato -</p>
           </div>
         </footer>
     </body>
