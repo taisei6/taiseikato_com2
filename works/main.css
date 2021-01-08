@@ -186,6 +186,27 @@ main {
 }
 
 /* main */
+
+/* gallary */
+.img_wrap{
+  /* border: 1px solid #ddd; */
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.img_wrap img{
+  width: 100%;
+  transform: scale(1.1);
+  cursor: pointer;
+  filter: grayscale(100%);
+  transition-duration: 0.5s;
+}
+.img_wrap img:hover{
+  filter: grayscale(0);
+  transition-duration: 0.5s;
+}
+/* gallary */
+
 h1{
   display: block;
   font-size: 36px;
