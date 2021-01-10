@@ -440,7 +440,7 @@ strong{
   text-decoration: underline;
 }
 .award ul li{
-  font-size: 20px;
+  font-size: 18px;
   color: #736C73;
   list-style: disc;
   list-style-position: inside;
@@ -448,7 +448,7 @@ strong{
   margin-bottom: 1em;
 }
 .award ul li a{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   color: #736C73;
   text-decoration: underline;
