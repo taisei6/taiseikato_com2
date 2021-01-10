@@ -63,15 +63,11 @@ header {
   /* float: left; */
 
   display: block;
-  margin-block-start: 0em;
-  margin-block-end: 0em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 0px;
 
 }
-#nav a{
-
+#nav a:hover{
+  font-style: italic;
+  /* font-weight: bold; */
 }
 #nav ul li{
   display: inline-block;
@@ -119,6 +115,7 @@ header {
 }
 .social ul{
   float: right;
+  margin: 0 20px 0 20px;
 }
 .social ul li a{
   float: right;
@@ -258,6 +255,7 @@ p{
 
 strong{
   font-weight: 500;
+  color: #736C73;
 }
 /* 作品ページ */
 .caption{
@@ -409,15 +407,22 @@ strong{
   list-style: disc;
   list-style-position: inside;
   color: gray;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 .text ul li a{
+  font-size: 18px;
   color: gray;
   text-decoration: underline;
 }
 .text p a{
-  color: gray;
+  color: #736C73;
   font-weight: 500;
   font-style: italic;
+  text-decoration: underline;
+}
+
+.career a h3{
   text-decoration: underline;
 }
 
