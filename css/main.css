@@ -285,33 +285,6 @@ strong{
     grid-gap: 5px
 }
 
-.caption_p{
-  display: grid;
-  /* height: 10em; */
-  margin: 0;
-  grid-template:
-    "Name ... born .... ....  " 55px
-    "... ... ... ... ..."2px
-    "Job Job Job Job ... " 20px
-    "From From From From ... " 20px
-    "Org Org Org Org ... " 20px
-    "... ... ... ... ..." 10px
-    / auto 5px 1fr auto auto;
-  /* grid-template:
-    "title day .... ....  " 55px
-    "Genre Genre Tools Tools " 20px
-    "... ... ... ... " 10px
-    / auto 1fr 50% auto; */
-  /* grid-template:
-    "... ... ... ... ... " 10px
-    "title ... day ... ...  " 10px
-    "title ... day Genre Genre  " 25px
-    "title ... day Tools Tools " 25px
-    "... ... ... ... ... " 10px
-    / auto 10px 110px 1fr auto; */
-    grid-gap: 5px
-}
-
 .caption h1{
   display: block;
   grid-area: title;
@@ -393,77 +366,6 @@ strong{
   margin-inline-start: 0px;
   margin-inline-end: 0px; */
 }
-
-/* ------ */
-
-.caption_p h1{
-  display: block;
-  grid-area: Name;
-  font-style: italic;
-  font-size: 45px;
-  font-weight: bold;
-  color: #202225;
-  margin-block-start: 0em;
-  margin-block-end: 0em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: none;
-}
-
-.caption_p h2{
-  display: block;
-  grid-area: Job;
-  font-style: normal;
-  font-size: 18px;
-  font-weight: 300;
-  color: gray;
-  margin-block-start: 0em;
-  margin-block-end: 0em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: none;
-}
-.caption_p h3{
-  display: block;
-  grid-area: From;
-  font-style: normal;
-  font-size: 18px;
-  font-weight: 300;
-  color: gray;
-  margin-block-start: 0em;
-  margin-block-end: 0em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: none;
-}
-.caption_p h4{
-  display: block;
-  grid-area: Org;
-  font-style: normal;
-  font-size: 18px;
-  font-weight: 300;
-  color: gray;
-  margin-block-start: 0em;
-  margin-block-end: 0em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: none;
-}
-
-.caption_p p{
-  grid-area: born;
-  font-size: 16px;
-  font-style: italic;
-  font-weight:  normal;
-  color: #202225;
-  display: block;
-  margin: 2.3em 0 0 0;
-  /* margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px; */
-}
-
 
 .photo{
   display:block;
