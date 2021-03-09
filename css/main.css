@@ -290,12 +290,11 @@ strong{
   /* height: 10em; */
   margin: 0;
   grid-template:
-    "title ... day .... ....  " 55px
+    "Name ... born .... ....  " 55px
     "... ... ... ... ..."2px
-    "ach ach ach ach ... " auto
-    "Genre Genre Genre Genre ... " 20px
-    "Tools Tools Tools Tools ... " 20px
     "Job Job Job Job ... " 20px
+    "From From From From ... " 20px
+    "Org Org Org Org ... " 20px
     "... ... ... ... ..." 10px
     / auto 5px 1fr auto auto;
   /* grid-template:
@@ -395,9 +394,11 @@ strong{
   margin-inline-end: 0px; */
 }
 
+/* ------ */
+
 .caption_p h1{
   display: block;
-  grid-area: title;
+  grid-area: Name;
   font-style: italic;
   font-size: 45px;
   font-weight: bold;
@@ -411,7 +412,7 @@ strong{
 
 .caption_p h2{
   display: block;
-  grid-area: Genre;
+  grid-area: Job;
   font-style: normal;
   font-size: 18px;
   font-weight: 300;
@@ -424,7 +425,7 @@ strong{
 }
 .caption_p h3{
   display: block;
-  grid-area: Tools;
+  grid-area: From;
   font-style: normal;
   font-size: 18px;
   font-weight: 300;
@@ -437,7 +438,7 @@ strong{
 }
 .caption_p h4{
   display: block;
-  grid-area: Job;
+  grid-area: Org;
   font-style: normal;
   font-size: 18px;
   font-weight: 300;
@@ -450,7 +451,7 @@ strong{
 }
 
 .caption_p p{
-  grid-area: day;
+  grid-area: born;
   font-size: 16px;
   font-style: italic;
   font-weight:  normal;
