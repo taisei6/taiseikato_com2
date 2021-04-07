@@ -970,12 +970,129 @@ img{
   }
 
 }
-/* @media screen and (max-width: 800px) {
+@media screen and (max-width: 450px) {
     body {
         grid-template:
-            " header " 80px
+            " header " 160px
             " center " 1fr
             " footer " 80px
             /1fr ;
     }
-} */
+    header {
+        grid-area: header;
+        width:inherit;
+        /* float: left; */
+        padding: 25px 0;
+        position: inherit;
+        text-align: center;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    }
+    #nav {
+      padding-left: 1vw;
+      padding-right: 1vw;
+      display: grid;
+      grid-template:
+      "... ... ..." auto
+      "logo menu social " 50px
+      "... ... ... " auto
+      / auto auto 0px;
+    }
+    #nav ul li {
+      display: block;
+    }
+    .menu a {
+      padding-right: 10px;
+      padding-left: 15px;
+      font-size: 24px;
+    }
+    .logo a {
+      padding-left: 15px;
+      font-size: 24px;
+      line-height: 4.7;
+    }
+
+    .wrapper {
+      display: block;
+      position: relative;
+      /* width: 70%; */
+      margin: 1em 1.5em 2em 1.5em;
+    }
+    .spacer {
+      /* width: 5%; */
+      align-items: center;
+      display: block;
+      margin-top: 2.5em;
+      margin-bottom: 2.5em;
+      /* border: 0.5px solid gray; */
+    }
+/* caption------------------------------------- */
+    .caption{
+        grid-gap: 0px;
+        grid-template:
+        "title ... .... .... .... " auto
+        "title ... day .... ...." auto
+        "... ... ... ... ..."2px
+        "ach ach ach ach ... " auto
+        "Genre Genre Genre Genre ... " auto
+        "Tools Tools Tools Tools ... " auto
+        "... ... ... ... ..." 10px
+        / auto 5px 1fr auto auto;
+    }
+    .caption h1 {
+      font-size: 20px;
+      line-height: 1.3;
+    }
+    .caption2 h1{
+      font-size: 20px;
+    }
+    .caption h2{
+      font-size: 8px;
+    }
+    .caption h3{
+      font-size: 8px;
+    }
+    .caption h4{
+      font-size: 8px;
+    }
+    .caption p{
+      font-size: 10px;
+      margin-left: 5px;
+      margin-top: 0.9em;
+    }
+/* cap---------------------------------------- */
+
+/* honnbunn--------------------------------------- */
+  h1{
+    font-size: 16px;
+  }
+
+  h2{
+    font-size: 14px;
+  }
+
+  h3{
+    font-size: 12px;
+    margin-block-start: 0.5em;
+  }
+
+  p{
+    font-size: 12px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .text ul li a {
+    font-size: 12px;
+  }
+  .skill{
+    display: grid;
+    grid-template:
+      " ..... b0 ..... " auto
+      " ..... b1 ..... " auto
+      " ..... b2 ..... " auto
+      / 10px 1fr 10px ;
+      /* grid-gap: 10px; */
+  }
+}
